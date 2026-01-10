@@ -4,6 +4,9 @@ I use this repo for revising and learning new things.
 
 ## Plans:
 - Regular Expressions (revise)
+- Data Structures
+- Algorithms
+- Package Managers
 
 ## In process:
 - Iterators
@@ -16,4 +19,4 @@ I use this repo for revising and learning new things.
 - Roadmap.sh | https://roadmap.sh/python
 - W3School.com | https://www.w3schools.com/
 - Geeksforgeeks.org | https://www.geeksforgeeks.org/
-- 
+- Youtube | https://www.youtube.com/

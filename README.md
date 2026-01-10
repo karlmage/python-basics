@@ -3,14 +3,14 @@
 I use this repo for revising and learning new things.
 
 ## Plans:
-- Iterators
 - Regular Expressions (revise)
 
 ## In process:
-- Decorators (revise)
+- Iterators
 
 ## Done:
 - Lambda Functions (revise) 09.01.2026
+- Decorators (revise) 10.01.2026
 
 ## Resources I use:
 - Roadmap.sh | https://roadmap.sh/python

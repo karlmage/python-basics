@@ -3,17 +3,17 @@
 I use this repo for revising and learning new things.
 
 ## Plans:
-- Regular Expressions (revise)
 - Data Structures
 - Algorithms
 - Package Managers
 
 ## In process:
-- Iterators
+- Regular Expressions (revise)
 
 ## Done:
 - Lambda Functions (revise) 09.01.2026
 - Decorators (revise) 10.01.2026
+- Iterators 11.01.2026
 
 ## Resources I use:
 - Roadmap.sh | https://roadmap.sh/python

@@ -1,4 +1,4 @@
-class Min_int_heap():
+class Min_int_heap:
     def __init__(self, items=None):
         if items is None:
             items = []

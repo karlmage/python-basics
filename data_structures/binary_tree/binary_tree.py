@@ -38,7 +38,7 @@ class Binary_tree:
             else:
                 self.right.add(item)
 
-    def search(self, item):
+    def search_item(self, item):
         if self.root is None:
             return
         if self.root == item:
@@ -48,11 +48,26 @@ class Binary_tree:
             if item < self.root:
                 if self.left is None:
                     return
-                self.left.search(item)
+                self.left.search_item(item)
             else:
                 if self.right is None:
                     return
-                self.right.search(item)
+                self.right.search_item(item)
+
+    def _search_tree(self, root):
+        if self.root is None:
+            return
+        if self.root == root:
+            return self
+        else:
+            if root < self.root:
+                if self.left is None:
+                    return
+                self.left.search_item(root)
+            else:
+                if self.right is None:
+                    return
+                self.right.search_item(root)
 
     def _delete_item(self, item):
         if self.root is None:
@@ -94,12 +109,12 @@ if __name__ == "__main__":
     tree_builder = Binary_tree_builder()
     binary_tree = tree_builder.build_tree(elements)
 
-    binary_tree.search(6)
-    binary_tree.search(5)
+    binary_tree.search_item(6)
+    binary_tree.search_item(5)
     binary_tree.add(8)
     binary_tree.add(10)
-    binary_tree.search(10)
+    binary_tree.search_item(10)
     binary_tree.delete(8)
-    binary_tree.search(8)
-    binary_tree.search(10)
-    binary_tree.search(9)
+    binary_tree.search_item(8)
+    binary_tree.search_item(10)
+    binary_tree.search_item(9)

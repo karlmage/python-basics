@@ -1,3 +1,5 @@
+# Source: https://realpython.com/sorting-algorithms-python/
+
 def bubble_sort(array):
     n = len(array)
 

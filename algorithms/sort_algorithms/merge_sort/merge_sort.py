@@ -25,6 +25,8 @@ def merge(left, right):
             result += right[index_right:]
             break
 
+    return result
+
 def merge_sort(array):
 
     if len(array) < 2:
@@ -36,6 +38,7 @@ def merge_sort(array):
                  merge_sort(array[midpoint:]))
 
 if __name__ == "__main__":
-    from algorythms.sort_algorythms.algorythm_timing import run_sorting_algorythm
-    run_sorting_algorythm("merge_sort")
+    from algorithms.sort_algorithms.algorythm_timing import run_sorting_algorithm
+
+    run_sorting_algorithm(merge_sort)
 

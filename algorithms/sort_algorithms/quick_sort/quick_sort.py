@@ -6,7 +6,7 @@ def quick_sort(array):
     if len(array) < 2:
         return array
 
-    low = same = high = []
+    low, same, high = [], [], []
 
     pivot = array[randint(0, len(array) - 1)]
 
@@ -20,5 +20,6 @@ def quick_sort(array):
     return quick_sort(low) + same + quick_sort(high)
 
 if __name__ == '__main__':
-    from algorythms.sort_algorythms.algorythm_timing import run_sorting_algorythm
-    run_sorting_algorythm("quick_sort")
+    from algorithms.sort_algorithms.algorythm_timing import run_sorting_algorithm
+
+    run_sorting_algorithm(quick_sort)

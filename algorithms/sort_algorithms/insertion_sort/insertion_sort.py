@@ -15,5 +15,6 @@ def insertion_sort(array):
     return array
 
 if __name__ == "__main__":
-    from algorythms.sort_algorythms.algorythm_timing import run_sorting_algorythm
-    run_sorting_algorythm("insertion_sort")
+    from algorithms.sort_algorithms.algorythm_timing import run_sorting_algorithm
+
+    run_sorting_algorithm(insertion_sort)

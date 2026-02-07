@@ -18,6 +18,6 @@ def bubble_sort(array):
     return array
 
 if __name__ == "__main__":
-    from algorythms.sort_algorythms.algorythm_timing import run_sorting_algorythm
+    from algorithms.sort_algorithms.algorythm_timing import run_sorting_algorithm
 
-    run_sorting_algorythm("bubble_sort")
+    run_sorting_algorithm(bubble_sort)

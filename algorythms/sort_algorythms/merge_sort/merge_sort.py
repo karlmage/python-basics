@@ -1,3 +1,5 @@
+# Source: https://realpython.com/sorting-algorithms-python/
+
 def merge(left, right):
     if len(left) == 0:
         return right

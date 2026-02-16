@@ -3,17 +3,18 @@
 I use this repo for revising and learning new things.
 
 ## Plans:
-- Package Managers
+- Testing
 
 ## In process:
-- Data Structures
-- Algorithms
+- Generator Expressions
 
 ## Done:
 - Lambda Functions (revise) 09.01.2026
 - Decorators (revise) 10.01.2026
 - Iterators 11.01.2026
 - Regular Expressions (revise) 13.01.2026
+- Sorting Algorithms 07.02.2026
+- Data Structures 07.02.2026 (put away for further project)
 
 ## Resources I use:
 - Roadmap.sh | https://roadmap.sh/python

@@ -3,10 +3,10 @@
 I use this repo for revising and learning new things.
 
 ## Plans:
-- Testing
+- Own Library
 
 ## In process:
-- Generator Expressions
+- Testing
 
 ## Done:
 - Lambda Functions (revise) 09.01.2026
@@ -15,6 +15,7 @@ I use this repo for revising and learning new things.
 - Regular Expressions (revise) 13.01.2026
 - Sorting Algorithms 07.02.2026
 - Data Structures 07.02.2026 (put away for further project)
+- Generator Expressions 16.02.2026
 
 ## Resources I use:
 - Roadmap.sh | https://roadmap.sh/python
